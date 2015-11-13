@@ -30,7 +30,8 @@ class Main {
         return "solution_to_test_case";
       });
   
-    // Input and output file paths can also be passed in as parameters, where args[0] is the input and args[1] is the output
+    // Input and output file paths can also be passed in as parameters,
+    // where args[0] is the input and args[1] is the output
     JamSolver.with(args, linesPerTestCase)
       .solve(testCase -> {
         // TODO solve the test case

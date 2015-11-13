@@ -87,7 +87,7 @@ public class JamSolver {
 	 */
 	public void solve(Solver solver) throws Throwable {
 		if (started) {
-			throw new RuntimeException("Solver has already been started once!");
+			throw new Exception("Solver has already been started once!");
 		}
 		started = true;
 
@@ -116,13 +116,9 @@ public class JamSolver {
 	}
 
 	private void solveAndWrite(Solver solver, String[] testCase, long testCaseCount, boolean isLast) throws Throwable {
-		try {
-			writer.write(String.format("Case #%s: %s", testCaseCount, solver.solve(testCase)));
-			if (!isLast) {
-				writer.newLine();
-			}
-		} catch (Throwable throwable) {
-			throw new RuntimeException(throwable);
+		writer.write(String.format("Case #%s: %s", testCaseCount, solver.solve(testCase)));
+		if (!isLast) {
+			writer.newLine();
 		}
 	}
 

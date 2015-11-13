@@ -1,6 +1,7 @@
 JamSolver
 =========
 A Google CodeJam boilerplate reducer, allowing you to concentrate on the real problem, not IO.
+
 __At least Java 7 is required to use this.__
 
 ```java

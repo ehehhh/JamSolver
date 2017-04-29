@@ -50,10 +50,10 @@ public class Main {
      */
     JamSolver.withIO(inPath, outPath)
         .withCustomTestCaseDesign(
-                TestCaseDesign
-                        .create()
-                        .addVaryingLines(firstLine -> Integer.parseInt(firstLine))
-                        .build()
+            TestCaseDesign
+                .create()
+                .addVaryingLines(firstLine -> Integer.parseInt(firstLine))
+                .build()
         )
         .solve(testCase -> {
           // testCase is a String array with length that varies for each test case

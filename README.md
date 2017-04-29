@@ -49,7 +49,12 @@ public class Main {
      * testcase3_line4
      */
     JamSolver.withIO(inPath, outPath)
-        .withVaryingLinesPerTestCase()
+        .withCustomTestCaseDesign(
+                TestCaseDesign
+                        .create()
+                        .addVaryingLines(firstLine -> Integer.parseInt(firstLine))
+                        .build()
+        )
         .solve(testCase -> {
           // testCase is a String array with length that varies for each test case
           // TODO solve the test case

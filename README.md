@@ -66,4 +66,4 @@ public class Main {
 
 Usage
 -----
-Just copy JamSolver.java into your project and you're good to go.
+Just copy Main.java into your project, initialize JamSolver with the correct test case parameters and you're good to go.

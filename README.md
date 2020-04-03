@@ -4,6 +4,13 @@ A Google CodeJam boilerplate reducer, allowing you to concentrate on solving the
 
 __At least Java 7 is required to use this.__
 
+Usage
+-----
+Use __Solution.java__ or __Solution.kt__ as a base, which you can copy-paste into CodeJam web interface once you've implemented your solution.
+
+Examples
+-----
+
 ```java
 public class Main {
 
@@ -63,7 +70,3 @@ public class Main {
   }
 }
 ```
-
-Usage
------
-Use __Solution.java__ or __Solution.kt__ as a base, which you can copy-paste into CodeJam web interface once you've implemented your solution.

@@ -1,6 +1,6 @@
 JamSolver
 =========
-A Google CodeJam boilerplate reducer, allowing you to concentrate on the real problem, not IO.
+A Google CodeJam boilerplate reducer, allowing you to concentrate on solving the problem, not implementing IO.
 
 __At least Java 7 is required to use this.__
 
@@ -66,4 +66,4 @@ public class Main {
 
 Usage
 -----
-Just copy Main.java into your project, initialize JamSolver with the correct test case parameters and you're good to go.
+Use __Solution.java__ or __Solution.kt__ as a base, which you can copy-paste into CodeJam web interface once you've implemented your solution.
